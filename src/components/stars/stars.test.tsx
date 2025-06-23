@@ -19,6 +19,6 @@ describe("Stars", () => {
     const stars = screen.getAllByRole("listitem");
     expect(stars).toHaveLength(count);
 
-    expect(screen.getByText(`Рейтинг ${count} звезд`)).toBeInTheDocument();
+    expect(screen.getByText(`Рейтинг звезд: ${count}`)).toBeInTheDocument();
   });
 });

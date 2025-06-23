@@ -1,3 +1,5 @@
+@import url('./style/listing.css');
+
 #root {    
   min-width: 300px;
   max-width: 1200px;
