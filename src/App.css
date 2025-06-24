@@ -1,12 +1,11 @@
 @import url('./style/listing.css');
+@import url('./style/chat.css');
 
 #root {    
   min-width: 300px;
   max-width: 1200px;
-  width: 90%;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .container {

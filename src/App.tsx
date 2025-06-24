@@ -3,7 +3,9 @@ import items from "./data/offers.json" with { type: "json" };
 
 import Stars from "./components/stars";
 import Listing from "./components/listing";
-console.log(items);
+import MessageHistory from "./components/message-history/message-history";
+import { messages } from "./consts";
+
 function App() {
   return (
     <div className="container">
@@ -15,6 +17,9 @@ function App() {
       </div>
       <div className="listing-container">
         <Listing items={items} />
+      </div>
+      <div className="chat-container">
+        <MessageHistory list={messages} />
       </div>
     </div>
   );
